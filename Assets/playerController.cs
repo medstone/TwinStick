@@ -26,7 +26,7 @@ public class playerController : MonoBehaviour {
 		if (health > maxhealth) {
 			health = maxhealth;
 		}
-		print(health);
+		//print(health);
 		Vector3 speedVec = Vector3.zero;
 		Vector3 bulletVel = Vector3.zero;
 		GetMove(ref speedVec);
