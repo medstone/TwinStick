@@ -3,11 +3,6 @@ using System.Collections;
 using UnityEngine.UI;
 
 public class gameManager : MonoBehaviour {
-	public Text nanoCount;
-	public Text tankGrade;
-	public Text valueGrade;
-	public Text reloadGrade;
-	public Text speedGrade;
 	public GameObject enemyPrefab;
 	public playerController player;
 	public int spawn = 0;
